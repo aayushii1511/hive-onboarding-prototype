@@ -1,16 +1,62 @@
-# React + Vite
+# Hive Onboarding Prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based prototype exploring a smoother onboarding experience for Hive.I built this prototype after reading Hive's internship problem statement to explore one possible solution for improving the onboarding experience.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Hive currently relies on college administrators to create student accounts and share login credentials. While this keeps accounts verified, it can also create friction during a student's first login.
 
-## React Compiler
+This prototype explores a hybrid onboarding flow where colleges continue creating verified accounts, while students activate their accounts through a guided self-service experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Guided account activation flow
+- Institution-verified student details
+- OTP verification
+- Password creation with live validation
+- Account activation confirmation
+- Responsive dashboard
+- Interactive first-time product tour
+- "What's New" walkthrough for introducing new features
+- Reusable React component structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- Lucide React
+
+## Design Goals
+
+The prototype focuses on:
+
+- Reducing first-time login friction
+- Keeping institution-managed accounts secure
+- Making onboarding more intuitive
+- Helping users discover new features
+- Building a scalable onboarding experience
+
+## Live Demo
+
+https://hive-onboarding-prototype1511.vercel.app/
+
+## Repository
+
+https://github.com/aayushii1511/hive-onboarding-prototype
+
+## Future Improvements
+
+- Password reset using verified email
+- Biometric authentication
+- Push notifications for new features
+- Onboarding analytics
+- Accessibility improvements
+- Backend authentication integration
+
+  
+Aayushi Mistry
+Third Year Computer Engineering Student  
+Padre Conceicao College of Engineering
+
+GitHub: https://github.com/aayushii1511
